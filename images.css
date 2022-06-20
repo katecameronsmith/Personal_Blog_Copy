@@ -1,0 +1,38 @@
+/*images*/
+
+/*Images Web*/
+@media (min-width:901px){
+.studio-img{
+    display: flex;
+    position:absolute;
+    width: 300px;
+    flex-direction: column;
+    margin-right:0;
+    float:inline-start;
+}
+
+.home-img{
+   display: flex;
+   margin: auto;
+   justify-content: center;
+   width: 1500px;
+   z-index:1;
+}
+}
+
+/*Images Mobile*/
+@media (max-width:600px){
+.home-image{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home-img{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 1100px;
+    z-index:1;
+}
+}
